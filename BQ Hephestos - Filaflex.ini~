@@ -101,7 +101,7 @@ start.gcode =
 	;M117 Printing...
 	; -- end of START GCODE --
 
-end.gcode =
+end.gcode = 
 	; -- END GCODE --
 	M104 S0                     ;set extruder temperature to zero (turned off)
 	G91                         ;set to relative positioning
